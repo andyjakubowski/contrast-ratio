@@ -1,0 +1,17 @@
+name: contrast-ratio
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8.*
+  - numpy=1.19.*
+  - matplotlib=3.3.*
+  - notebook=6.1.*
+  - scikit-learn=0.23.*
+  - pandas=1.1.*
+  - seaborn=0.11.*
+  - pip
+  - pip:
+      - tensorboard==2.4.*
+      - tensorflow==2.3.*
+      - tensorflowjs==2.7.*
